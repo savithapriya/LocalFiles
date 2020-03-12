@@ -1,0 +1,55 @@
+{
+"cities" :[
+    
+    {"name": "Savitha"
+     
+    },
+    {"name": "Latha"
+    }
+    
+    
+    
+    ],
+
+  "userDetails":[
+      {
+          "name":"Savitha",
+          "code":"123",
+          "age":"22",
+          "city":"madurai"
+      },
+      {
+        "name":"Savitha",
+        "code":"123",
+        "age":"22",
+        "city":"madurai"
+    },
+    {
+        "name":"Latha",
+        "code":"123",
+        "age":"22",
+        "city":"madurai"
+    },
+    {
+        "name":"Savitha",
+        "code":"123",
+        "age":"22",
+        "city":"madurai"
+    },
+    {
+      "name":"Savitha",
+      "code":"123",
+      "age":"22",
+      "city":"madurai"
+  },
+  {
+      "name":"Latha",
+      "code":"123",
+      "age":"22",
+      "city":"madurai"
+  }
+
+
+  ]  
+
+}
