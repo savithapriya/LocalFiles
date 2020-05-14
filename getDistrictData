@@ -1,0 +1,23 @@
+ function getDistrictData(stateName){
+	
+ const distURL = 'https://api.covid19india.org/state_district_wise.json';
+  console.log("stateName:"+stateName);
+ stateName= JSON.parse(stateName);
+ let allowed=[];
+ allowed.push(stateName);
+ axios.get(distURL)
+ .then((res) =>{
+ let result= res.data;
+ let stateData = Object.keys(result)
+ .filter(key => allowed.includes(key))
+ .reduce((obj, key) => {
+ return{
+ ...obj,
+ [key]: result[key]
+ };
+ }, {});
+ console.log(stateData);
+ let stateData = Object.keys(result).filter()
+ console.log(stateData);
+		
+})
